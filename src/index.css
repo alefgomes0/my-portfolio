@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "metropolisbold";
+  src: url("../fonts/metropolis-bold-webfont.woff2") format("woff2"),
+    url("../fonts/metropolis-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "metropolisbold";
+  src: url("../fonts/Metropolis-SemiBold.woff2") format("woff2"),
+    url("../fonts/Metropolis-SemiBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "metropolislight";
+  src: url("../fonts/metropolis-light-webfont.woff2") format("woff2"),
+    url("../fonts/metropolis-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "metropolisregular";
+  src: url("../fonts/metropolis-regular-webfont.woff2") format("woff2"),
+    url("../fonts/metropolis-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "metropolismedium";
+  src: url("../fonts/Metropolis-Medium.woff2") format("woff2"),
+    url("../fonts/Metropolis-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "playfair_displayitalic";
+  src: url("../fonts/playfairdisplay-italic-webfont.woff2")
+      format("woff2"),
+    url("../fonts/playfairdisplay-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "inconsolata";
+  src: url("../fonts/inconsolata-variablefont_wdthwght-webfont.woff2")
+      format("woff2"),
+    url("../fonts/inconsolata-variablefont_wdthwght-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root,
+:root::before,
+:root:after {
+  box-sizing: border-box;
+}
+
