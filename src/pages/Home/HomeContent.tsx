@@ -1,7 +1,13 @@
-import { Apresentacao } from "../../components/Apresentacao/Apresentacao"
+import { Apresentacao } from "../../components/Apresentacao/Apresentacao";
+import { Formação } from "../../components/Formação/Formação";
+import { Projetos } from "../../components/Projetos/Projetos";
 
 export const HomeContent = () => {
   return (
-    <Apresentacao />
-  )
-}
+      <main className="bg-neutral-200">
+        <Apresentacao />
+        <Projetos />
+        <Formação />
+      </main>
+  );
+};
