@@ -11,6 +11,7 @@ function App() {
     <div className="grid grid-rows-[50px_1fr]">
       <BrowserRouter>
         <Header />
+        <Projetos />
         <Routes>
           <Route path="/" element={<HomeContent />}/>
         </Routes>
