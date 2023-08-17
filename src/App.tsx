@@ -3,6 +3,7 @@ import "./App.css";
 import { Header } from "./components/Header/Header";
 import { HomeContent } from "./pages/Home/HomeContent";
 import { ArrowUp } from "./components/svg/ArrowUp";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <ArrowUp />
+      <Footer />
     </div>
   );
 }
