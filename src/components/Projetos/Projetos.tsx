@@ -7,22 +7,22 @@ import { TypeScriptColorido } from "../svg/TypeScript";
 
 export const Projetos = () => {
   return (
-    <div className="font-[metropolisregular] grid grid-cols-1 grid-rows-[auto_1fr] gap-2 pt-24 isolate relative after:absolute after:content-[''] after:inset-0 after:bg-neutral-300 after:skew-y-[-5deg] after:z-[-1]">
+    <div className="font-[metropolisregular] grid grid-cols-1 grid-rows-[auto_1fr] gap-2 pt-24 isolate relative after:absolute after:content-[''] after:inset-0 after:bg-neutral-100 after:skew-y-[-5deg] after:z-[-1]">
       <h2 className="font-[metropolisbold] opacity-80 text-6xl px-24 mb-8">
         Meus Projetos
       </h2>
       <div className="grid grid-cols-1 grid-rows-[1fr_1fr_1fr_auto] gap-x-8 gap-y-16 mt-4">
-        <div className="grid grid-cols-2 grid-rows-[auto_1fr] gap-x-8 gap-y-2 bg-slate-200 px-24 py-8">
+        <div className="grid grid-cols-2 grid-rows-[auto_1fr] gap-x-8 gap-y-2 bg-neutral-50 px-24 py-8">
           <h3 className="row-start-1 row-end-2 col-start-1 col-end-2 text-3xl">
             LIVRARIA
           </h3>
-          <div className="row-start-2 row-end-3 col-start-1 col-end-2 w-full h-full shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]">
+          <div>
             <a
               href="https://shopping-cart-psi-seven.vercel.app/"
               target="_blank"
             >
               <img
-                className="object-center object-cover rounded"
+                className="object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
                 srcSet="
                     /imagens/sc.png 600w,
                     /imagens/sc-s.png 300w
@@ -56,14 +56,14 @@ export const Projetos = () => {
             </h5>
           </div>
         </div>
-        <div className="grid grid-cols-2 grid-rows-[auto_1fr] gap-x-8 gap-y-2 px-24">
+        <div className="grid grid-cols-2 grid-rows-[auto_1fr] gap-x-8 gap-y-2 bg-gray-200 px-24 py-8">
           <h3 className="row-start-1 row-end-2 col-start-1 col-end-2 text-3xl">
             ONG AMBIENTAL
           </h3>
-          <div className="row-start-2 row-end-3 col-start-1 col-end-2 w-full h-full shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]">
+          <div>
             <a href="https://trees-lilac.vercel.app/" target="_blank">
               <img
-                className="object-center object-cover rounded"
+                className="object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
                 srcSet="
                     /imagens/trees.png 600w,
                     /imagens/trees-s.png 300w
@@ -94,14 +94,14 @@ export const Projetos = () => {
             </h5>
           </div>
         </div>
-        <div className="grid grid-cols-2 grid-rows-[auto_1fr] gap-x-8 gap-y-2 px-24">
+        <div className="grid grid-cols-2 grid-rows-[max-content_1fr] gap-x-8 gap-y-2 bg-neutral-50 px-24 py-8">
           <h3 className="row-start-1 row-end-2 col-start-1 col-end-2 text-3xl">
             RESTAURANTE
           </h3>
-          <div className="row-start-2 row-end-3 col-start-1 col-end-2 w-full h-full shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]">
+          <div>
             <a href="https://restaurant-page-eight.vercel.app/" target="_blank">
               <img
-                className="object-center object-cover rounded"
+                className="object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
                 srcSet="
                     /imagens/rp.png 600w,
                     /imagens/rp-s.png 300w

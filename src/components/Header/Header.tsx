@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <header className="row-start-1 row-end-2 h-[50px] flex items-center justify-between font-[inconsolata] font-semibold h-20 bg-neutral-50 px-24 shadow-[0_2px_2px_0_rgba(0,0,0,0.2)]">
       <img
-        src="../../../public/logo/b1.png"
+        src="/logo/b1.png"
         alt="logo"
         className="w-8 h-8 opacity-[90%] shadow rounded"
       />
