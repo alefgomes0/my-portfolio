@@ -10,8 +10,8 @@ export const Contato = () => {
   const isDesktop = window.innerWidth > 770;
 
   return isDesktop ? (
-    <div className="flex flex-col gap-4 pt-1 md:pt-12 px-6 md:pl-12 font-[metropolisregular]">
-      <h3 className="text-3xl sm:text-6xl md:text-8xl opacity-80">
+    <div className="flex flex-col gap-4 pt-8 px-6 font-[metropolisregular]">
+      <h3 className="text-5xl opacity-80">
         Entre em contato
       </h3>
       <div className="flex gap-24">

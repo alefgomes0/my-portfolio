@@ -7,8 +7,8 @@ export const VisiteGitHub = () => {
   const isDesktop = window.innerWidth > 770;
 
   return isDesktop ? (
-    <div className="flex flex-col gap-4 pt-3 pl-12 font-[metropolisregular] pl-1">
-      <h3 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-[metropolisregular] opacity-80">
+    <div className="flex flex-col gap-4 pt-6 pl-8 font-[metropolisregular] pl-1">
+      <h3 className="text-5xl font-[metropolisregular] opacity-80">
         Visite meu GitHub
       </h3>
       <a
