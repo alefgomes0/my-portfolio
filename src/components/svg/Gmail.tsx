@@ -1,9 +1,11 @@
-export const Gmail = () => {
+import { IconesProps } from "../../types/IconesProps";
+
+export const Gmail = (props: IconesProps) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="80"
-      height="80"
+      width={`${props.width}`}
+      height={`${props.height}`}
       viewBox="0 0 24 24"
     >
       <path

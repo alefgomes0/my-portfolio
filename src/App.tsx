@@ -2,8 +2,8 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import { Header } from "./components/Header/Header";
 import { HomeContent } from "./pages/Home/HomeContent";
-import { ArrowUp } from "./components/svg/ArrowUp";
 import { Footer } from "./components/Footer/Footer";
+import { BotõesLaterais } from "./components/BotõesLaterais/BotõesLaterais";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<HomeContent />} />
         </Routes>
       </BrowserRouter>
-      <ArrowUp />
+      <BotõesLaterais />
       <Footer />
     </div>
   );

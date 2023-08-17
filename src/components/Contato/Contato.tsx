@@ -23,14 +23,14 @@ export const Contato = () => {
               showEmail ? "opacity-0" : "opacity-100"
             } transition-opacity duration-500 ease-in-out`}
           >
-            <Gmail />
+            <Gmail width={80} height={80}/>
           </div>
           <div
             className={`w-min absolute inset-0 ${
               showEmail ? "opacity-100" : "opacity-0"
             } transition-opacity duration-500 ease-in-out`}
           >
-            <GmailColorido />
+            <GmailColorido width={80} height={80}/>
           </div>
         </a>
         <a
