@@ -4,11 +4,11 @@ export const IconesTecnologia = () => {
   const [hoveredIcon, setHoveredIcon] = useState<number | null>(null);
 
   return (
-    <div className="flex flex-col gap-8 row-start-2 row-end-3 p-4 ">
-      <h2 className="text-5xl font-[metropolisregular] opacity-80">
+    <div className="flex flex-col gap-2 md:gap-8 row-start-2 row-end-3 p-4">
+      <h2 className="text-4xl sm:text-4xl md:text-6xl font-[metropolisregular] opacity-80">
         TECNOLOGIAS
       </h2>
-      <div className="flex items-center gap-4 justify-between">
+      <div className="flex gap-2 md:gap-4 ">
         <svg
           onMouseEnter={() => setHoveredIcon(0)}
           onMouseLeave={() => setHoveredIcon(null)}
