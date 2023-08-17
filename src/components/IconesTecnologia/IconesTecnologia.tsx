@@ -4,7 +4,7 @@ export const IconesTecnologia = () => {
   const [hoveredIcon, setHoveredIcon] = useState<number | null>(null);
 
   return (
-    <div className="flex flex-col gap-8 row-start-2 row-end-3 p-4 self-center">
+    <div className="flex flex-col gap-8 row-start-2 row-end-3 p-4 ">
       <h2 className="text-5xl font-[metropolisregular] opacity-80">
         TECNOLOGIAS
       </h2>

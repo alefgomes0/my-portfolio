@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="bg-neutral-200 h-12 flex justify-end gap-2 pr-16">
+    <footer className="bg-neutral-200 h-16 flex justify-end gap-2 pr-16">
       <h5 className="text-lg">Alexandre Figueiredo Gomes</h5>
       <a href="https://github.com/alefgomes0" rel="noreferrer" target="_blank" className="cursor-pointer pt-0.5">
         <svg

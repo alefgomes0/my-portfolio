@@ -1,8 +1,10 @@
+import { Contato } from "../Contato/Contato";
 import { IconesTecnologia } from "../IconesTecnologia/IconesTecnologia";
+import { VisiteGitHub } from "../VisiteGitHub/VisiteGitHub";
 
 export const Apresentacao = () => {
   return (
-    <div className="grid grid-cols-2 grid-rows-2 ml-[91px] mr-24 my-14 bg-neutral-100 rounded">
+    <div className="grid grid-cols-2 grid-rows-2 gap-x-24 ml-[91px] mr-24 my-14 bg-neutral-100 rounded">
       <div className="flex flex-col gap-2 col-start-1 col-end-2 row-start-1 row-end-2 p-4">
         <h2 className="text-8xl font-[inconsolata] opacity-80">hello, world</h2>
         <h4 className="text-lg font-[metropolislight]">
@@ -16,6 +18,8 @@ export const Apresentacao = () => {
         </h4>
       </div>
       <IconesTecnologia />
+      <Contato />
+      <VisiteGitHub />
     </div>
   );
 };
