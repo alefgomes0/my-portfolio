@@ -5,8 +5,8 @@ export const IconesTecnologia = () => {
 
   return (
     <div className="flex flex-col gap-2 md:gap-8 row-start-2 row-end-3 p-4">
-      <h2 className="text-4xl sm:text-4xl md:text-6xl font-[metropolisregular] opacity-80">
-        TECNOLOGIAS
+      <h2 className="text-4xl sm:text-4xl md:text-4xl xs:text-6xl font-[metropolisregular] opacity-80">
+        Tecnologias
       </h2>
       <div className="flex gap-2 md:gap-4 ">
         <svg

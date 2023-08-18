@@ -8,7 +8,7 @@ export const VisiteGitHub = () => {
 
   return isDesktop ? (
     <div className="flex flex-col gap-4 pt-6 pl-8 font-[metropolisregular] pl-1">
-      <h3 className="text-5xl font-[metropolisregular] opacity-80">
+      <h3 className="text-4xl sm:text-4xl md:text-2xl lg:text-4xl xs:text-6xl opacity-80">
         Visite meu GitHub
       </h3>
       <a

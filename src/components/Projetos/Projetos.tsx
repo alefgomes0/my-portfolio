@@ -22,7 +22,7 @@ export const Projetos = () => {
               target="_blank"
             >
               <img
-                className="object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
+                className="min-h-[140px] min-w-[280px] object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
                 srcSet="
                     /imagens/sc.png 600w,
                     /imagens/sc-s.png 300w
@@ -38,7 +38,7 @@ export const Projetos = () => {
               <TypeScriptColorido width={60} height={60} />
               <GitColorido width={60} height={60} />
             </div>
-            <h5 className="font-[metropolislight]">
+            <h5 className="font-[metropolislight] text-base md:text-sm lg-text-base">
               Site com design responsivo que utiliza uma base de dados em
               arquivo <span className="font-[metropolisbold]">.json </span>
               localizada na própria pasta do projeto para exibir os livros. É
@@ -63,7 +63,7 @@ export const Projetos = () => {
           <div className="h-fit">
             <a href="https://trees-lilac.vercel.app/" target="_blank">
               <img
-                className="object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
+                className="min-h-[140px] min-w-[280px] object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
                 srcSet="
                     /imagens/trees.png 600w,
                     /imagens/trees-s.png 300w
@@ -79,7 +79,7 @@ export const Projetos = () => {
               <TypeScriptColorido width={60} height={60} />
               <GitColorido width={60} height={60} />
             </div>
-            <h5 className="font-[metropolislight]">
+            <h5 className="font-[metropolislight] text-base md:text-sm lg-text-base">
               O site, com temática inspirada em uma ONG que ajuda a combater
               queimadas, conta com algumas funcionalidades. Por um lado, ele
               consome duas <span className="font-[metropolisbold]">API's</span>{" "}
@@ -101,7 +101,7 @@ export const Projetos = () => {
           <div className="h-fit">
             <a href="https://restaurant-page-eight.vercel.app/" target="_blank">
               <img
-                className="object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
+                className="min-h-[140px] min-w-[280px] object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
                 srcSet="
                     /imagens/rp.png 600w,
                     /imagens/rp-s.png 300w
@@ -117,7 +117,7 @@ export const Projetos = () => {
               <TypeScriptColorido width={60} height={60} />
               <GitColorido width={60} height={60} />
             </div>
-            <h5 className="font-[metropolislight]">
+            <h5 className="font-[metropolislight] text-base md:text-sm lg-text-base">
               Projeto feito para solidificar os conhecimentos adquiridos até
               então. Implementa alguns padrões básicos do front-end como{" "}
               <span className="font-[metropolisbold]">
