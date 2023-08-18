@@ -2,7 +2,11 @@ import { Contato } from "../Contato/Contato";
 import { IconesTecnologia } from "../IconesTecnologia/IconesTecnologia";
 import { VisiteGitHub } from "../VisiteGitHub/VisiteGitHub";
 
-export const Apresentacao = () => {
+type ApresentacaoProps = {
+  isDesktop: boolean
+}
+
+export const Apresentacao = (props: ApresentacaoProps) => {
   return (
     <div className="grid grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 lg:gap-x-24 gap-x-8 sm:gap-x-18 mx-8 md:mx-24 sm:mr-24 my-14 bg-neutral-100 rounded">
       <div className="flex flex-col gap-2 col-start-1 col-end-2 row-start-1 row-end-2 p-4">
@@ -18,7 +22,7 @@ export const Apresentacao = () => {
         </h4>
       </div>
       <IconesTecnologia />
-      <Contato />
+      <Contato isDesktop={props.isDesktop}/>
       <VisiteGitHub />
     </div>
   );

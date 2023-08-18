@@ -4,12 +4,15 @@ import { GmailColorido } from "../svg/GmailColorido";
 import { Linkedin } from "../svg/Linkedin";
 import { LinkedinColorido } from "../svg/LinkedinColorido";
 
-export const Contato = () => {
+type ContatoProps = {
+  isDesktop: boolean
+}
+
+export const Contato = (props: ContatoProps) => {
   const [showEmail, setShowEmail] = useState(false);
   const [showLinkedin, setShowLinkedin] = useState(false);
-  const isDesktop = window.innerWidth > 770;
 
-  return isDesktop ? (
+  return props.isDesktop ? (
     <div className="flex flex-col gap-4 pt-8 px-6 font-[metropolisregular]">
       <h3 className="text-4xl md:text-2xl lg:text-5xl xs:text-6xl opacity-80">
         Entre em contato

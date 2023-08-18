@@ -9,7 +9,7 @@ type HomeContentProps = {
 export const HomeContent = (props: HomeContentProps) => {
   return (
       <main className="bg-neutral-200 w-full">
-        <Apresentacao />
+        <Apresentacao isDesktop={props.isDesktop}/>
         <Projetos />
         <Formação />
       </main>
