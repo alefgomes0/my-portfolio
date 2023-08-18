@@ -15,7 +15,9 @@ export default {
         MetropolisThin: "metropolisthin",
         Inconsolata: "inconsolata",
       }
-    }
+      
+    },
   },
+  darkMode: "class",
   plugins: [],
 }
