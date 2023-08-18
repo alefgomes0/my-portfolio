@@ -2,11 +2,15 @@ import { useState } from "react";
 import { Github1 } from "../svg/Github1";
 import { Github2 } from "../svg/Github2";
 
-export const VisiteGitHub = () => {
-  const [github, showGithub] = useState(false);
-  const isDesktop = window.innerWidth > 770;
+type VisiteGitHubProps = {
+  isDesktop: boolean
+}
 
-  return isDesktop ? (
+export const VisiteGitHub = (props: VisiteGitHubProps) => {
+  const [github, showGithub] = useState(false);
+
+
+  return props.isDesktop ? (
     <div className="flex flex-col gap-4 pt-6 pl-8 font-[metropolisregular] pl-1">
       <h3 className="text-4xl sm:text-4xl md:text-2xl lg:text-4xl xs:text-6xl opacity-80">
         Visite meu GitHub

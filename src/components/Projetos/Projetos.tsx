@@ -5,6 +5,7 @@ import { ReactColorido } from "../svg/ReactColorido";
 import { TailwindColorido } from "../svg/Tailwind";
 import { TypeScriptColorido } from "../svg/TypeScript";
 
+
 export const Projetos = () => {
   return (
     <div className="font-[metropolisregular] grid grid-cols-1 grid-rows-[auto_1fr] gap-2 pt-24 isolate relative after:absolute after:content-[''] after:inset-0 after:bg-neutral-100 after:skew-y-[-5deg] after:z-[-1]">

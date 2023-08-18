@@ -1,16 +1,29 @@
+import { useState, useEffect } from "react";
 import { Contato } from "../Contato/Contato";
 import { IconesTecnologia } from "../IconesTecnologia/IconesTecnologia";
 import { VisiteGitHub } from "../VisiteGitHub/VisiteGitHub";
 
-type ApresentacaoProps = {
-  isDesktop: boolean
-}
+export const Apresentacao = () => {
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 770);
 
-export const Apresentacao = (props: ApresentacaoProps) => {
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth > 770);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="grid grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 lg:gap-x-24 gap-x-8 sm:gap-x-18 mx-8 md:mx-24 sm:mr-24 my-14 bg-neutral-100 rounded">
       <div className="flex flex-col gap-2 col-start-1 col-end-2 row-start-1 row-end-2 p-4">
-        <h2 className="text-4xl sm:text-4xl md:text-3xl lg:text-5xl xl:text-7xl font-[inconsolata] opacity-80">hello, world</h2>
+        <h2 className="text-4xl sm:text-4xl md:text-3xl lg:text-5xl xl:text-7xl font-[inconsolata] opacity-80">
+          hello, world
+        </h2>
         <h4 className="text-xs sm:text-sm  xs:text-lg font-[metropolislight]">
           Meu nome é Alexandre Figueiredo Gomes. Sou um desenvolvedor{" "}
           <span className="font-[metropolisbold]">front end</span> (estudando
@@ -22,8 +35,8 @@ export const Apresentacao = (props: ApresentacaoProps) => {
         </h4>
       </div>
       <IconesTecnologia />
-      <Contato isDesktop={props.isDesktop}/>
-      <VisiteGitHub />
+      <Contato isDesktop={isDesktop} />
+      <VisiteGitHub isDesktop={isDesktop} />
     </div>
   );
 };
