@@ -8,12 +8,12 @@ import { TypeScriptColorido } from "../svg/TypeScript";
 
 export const Projetos = () => {
   return (
-    <div className="font-[metropolisregular] grid grid-cols-1 grid-rows-[auto_1fr] gap-2 pt-24 isolate relative after:absolute after:content-[''] after:inset-0 after:bg-neutral-100 after:skew-y-[-5deg] after:z-[-1]">
-      <h2 className="font-[metropolisbold] opacity-80 text-4xl md:text-6xl px-8 md:px-24 mb-8">
+    <div className="dark:text-neutral-100 font-[metropolisregular] grid grid-cols-1 grid-rows-[auto_1fr] gap-2 pt-24 isolate relative after:absolute after:content-[''] after:inset-0 after:bg-neutral-100 after:dark:bg-neutral-950 after:skew-y-[-5deg] after:z-[-1]">
+      <h2 className="dark:text-neutral-50 font-[metropolisbold] opacity-80 text-4xl md:text-6xl px-8 md:px-24 mb-8">
         Meus Projetos
       </h2>
       <div className="grid grid-cols-1 grid-rows-[min-height_min-height_min-height_auto] gap-x-8 gap-y-16 mt-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-[auto_1fr] gap-x-2 md:gap-x-8 gap-y-2 bg-neutral-50 px-8 md:px-24 py-8">
+        <div className="dark:bg-neutral-800 grid grid-cols-1 md:grid-cols-2 grid-rows-[auto_1fr] gap-x-2 md:gap-x-8 gap-y-2 bg-neutral-50 px-8 md:px-24 py-8">
           <h3 className="row-start-1 row-end-2 col-start-1 col-end-2 text-2xl md:text-3xl">
             LIVRARIA
           </h3>
@@ -57,7 +57,7 @@ export const Projetos = () => {
             </h5>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-[auto_1fr] gap-x-2 md:gap-x-8 gap-y-2 bg-neutral-50 px-8 md:px-24 py-8">
+        <div className="dark:bg-neutral-800 grid grid-cols-1 md:grid-cols-2 grid-rows-[auto_1fr] gap-x-2 md:gap-x-8 gap-y-2 bg-neutral-50 px-8 md:px-24 py-8">
           <h3 className="row-start-1 row-end-2 col-start-1 col-end-2 text-3xl">
             ONG AMBIENTAL
           </h3>
@@ -95,7 +95,7 @@ export const Projetos = () => {
             </h5>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-[auto_1fr] gap-x-2 md:gap-x-8 gap-y-2 bg-neutral-50 px-8 md:px-24 py-8">
+        <div className="dark:bg-neutral-800 grid grid-cols-1 md:grid-cols-2 grid-rows-[auto_1fr] gap-x-2 md:gap-x-8 gap-y-2 bg-neutral-50 px-8 md:px-24 py-8">
           <h3 className="row-start-1 row-end-2 col-start-1 col-end-2 text-3xl">
             RESTAURANTE
           </h3>

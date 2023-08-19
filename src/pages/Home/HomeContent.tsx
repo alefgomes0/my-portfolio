@@ -6,7 +6,7 @@ import { Projetos } from "../../components/Projetos/Projetos";
 
 export const HomeContent = () => {
   return (
-      <main className="bg-neutral-200 dark:bg-neutral-700 w-full">
+      <main className="bg-neutral-200 dark:bg-neutral-900 w-full">
         <Apresentacao />
         <Projetos />
         <Formação />
