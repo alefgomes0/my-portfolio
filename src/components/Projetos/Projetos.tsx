@@ -5,7 +5,6 @@ import { ReactColorido } from "../svg/ReactColorido";
 import { TailwindColorido } from "../svg/Tailwind";
 import { TypeScriptColorido } from "../svg/TypeScript";
 
-
 export const Projetos = () => {
   return (
     <div className="dark:text-neutral-100 font-[metropolisregular] grid grid-cols-1 grid-rows-[auto_1fr] gap-2 pt-24 isolate relative after:absolute after:content-[''] after:inset-0 after:bg-neutral-100 after:dark:bg-neutral-950 after:skew-y-[-5deg] after:z-[-1]">
@@ -41,17 +40,31 @@ export const Projetos = () => {
             </div>
             <h5 className="font-[metropolislight] text-base md:text-sm lg-text-base">
               Site com design responsivo que utiliza uma base de dados em
-              arquivo <span className="font-[metropolisbold]">.json </span>
+              arquivo{" "}
+              <span className="font-[metropolisbold] dark:text-white">
+                .json{" "}
+              </span>
               localizada na própria pasta do projeto para exibir os livros. É
               possível filtrar por nome ou gênero, adicionar/remover do carrinho
               de compras e visualizar os itens em uma página para finalizar o
               pagamento. Os principais hooks do React foram utilizados no
               projeto, como{" "}
-              <span className="font-[metropolisbold]">useState</span>,{" "}
-              <span className="font-[metropolisbold]">useEffect</span>,{" "}
-              <span className="font-[metropolisbold]">useRef</span>,{" "}
-              <span className="font-[metropolisbold]">useContext</span> e até
-              mesmo um{" "}
+              <span className="font-[metropolisbold] dark:text-white">
+                useState
+              </span>
+              ,{" "}
+              <span className="font-[metropolisbold] dark:text-white">
+                useEffect
+              </span>
+              ,{" "}
+              <span className="font-[metropolisbold] dark:text-white">
+                useRef
+              </span>
+              ,{" "}
+              <span className="font-[metropolisbold] dark:text-white">
+                useContext
+              </span>{" "}
+              e até mesmo um{" "}
               <span className="font-[metropolisbold]">hook personalizado</span>{" "}
               para armazenar os livros escolhidos em local storage.
             </h5>
@@ -83,15 +96,20 @@ export const Projetos = () => {
             <h5 className="font-[metropolislight] text-base md:text-sm lg-text-base">
               O site, com temática inspirada em uma ONG que ajuda a combater
               queimadas, conta com algumas funcionalidades. Por um lado, ele
-              consome duas <span className="font-[metropolisbold]">API's</span>{" "}
+              consome duas{" "}
+              <span className="font-[metropolisbold] dark:text-white">
+                API's
+              </span>{" "}
               diferentes para gerar um mapa com as localizações dos últimos
               incêndios florestais registrados. Além disso, conta com uma página
               de notícias, com conteúdo lorem ipsum, para mostrar diferentes
               estilizações de texto. Feito com Tailwind, o site é responsivo e
               utiliza as principais funcionalidades do React para estruturar o
               layout, além da biblioteca{" "}
-              <span className="font-[metropolisbold]">axios</span> e
-              promessas/catch para fazer o get request.
+              <span className="font-[metropolisbold] dark:text-white">
+                axios
+              </span>{" "}
+              e promessas/catch para fazer o get request.
             </h5>
           </div>
         </div>
@@ -121,16 +139,21 @@ export const Projetos = () => {
             <h5 className="font-[metropolislight] text-base md:text-sm lg-text-base">
               Projeto feito para solidificar os conhecimentos adquiridos até
               então. Implementa alguns padrões básicos do front-end como{" "}
-              <span className="font-[metropolisbold]">
+              <span className="font-[metropolisbold] dark:text-white">
                 carrossel de imagens
               </span>
-              , <span className="font-[metropolisbold]">transições</span> e{" "}
-              <span className="font-[metropolisbold]">animações</span>. Em
+              ,{" "}
+              <span className="font-[metropolisbold] dark:text-white">
+                transições
+              </span>{" "}
+              e <span className="font-[metropolisbold]">animações</span>. Em
               termos visuais, a tentativa foi de criar um design simples,
               responsivo e elegante com a temática de um restaurante de frutos
               do mar. Conceitos de React como{" "}
-              <span className="font-[metropolisbold]">props</span> e{" "}
-              <span className="font-[metropolisbold]">hooks</span> foram
+              <span className="font-[metropolisbold] dark:text-white">
+                props
+              </span>{" "}
+              e <span className="font-[metropolisbold] dark:text-white">hooks</span> foram
               utilizados em todo o projeto.
             </h5>
           </div>

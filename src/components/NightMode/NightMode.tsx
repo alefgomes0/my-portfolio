@@ -2,10 +2,10 @@ import { Moon } from "../svg/Moon";
 import { Sun } from "../svg/Sun";
 
 type NightModeProps = {
-  changeTheme: () => void;
   width: number;
   height: number;
   theme: "light" | "dark";
+  changeTheme: () => void;
 };
 
 export const NightMode = (props: NightModeProps) => {

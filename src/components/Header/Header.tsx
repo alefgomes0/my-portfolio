@@ -14,7 +14,7 @@ export const Header = (props: HeaderProps) => {
         alt="logo"
         className="w-8 h-8 opacity-[90%] shadow rounded"
       />
-      <nav className="flex gap-4 text-xs md:text-base dark:text-neutral-200">
+      <nav className="flex gap-4 text-xs md:text-base dark:text-neutral-100">
         <NavLink
           to="/"
           className="hover:underline decoration-cyan-700 underline-offset-4"

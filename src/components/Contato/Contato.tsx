@@ -14,7 +14,7 @@ export const Contato = (props: ContatoProps) => {
 
   return props.isDesktop ? (
     <div className="flex flex-col gap-4 pt-8 px-6 font-[metropolisregular]">
-      <h3 className="text-4xl md:text-2xl lg:text-5xl xs:text-6xl opacity-80">
+      <h3 className="text-4xl md:text-2xl lg:text-4xl xs:text-6xl opacity-80">
         Entre em contato
       </h3>
       <div className="flex gap-24">
