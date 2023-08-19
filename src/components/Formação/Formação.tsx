@@ -1,10 +1,10 @@
 export const Formação = () => {
   return (
     <>
-      <h4 className="text-4xl md:text-6xl font-[metropolisregular]  pt-16 md:pt-36 pb-16 pl-8 md:pl-24">
+      <h4 className="dark:text-neutral-50 text-4xl md:text-6xl font-[metropolisregular] pt-16 md:pt-36 pb-16 pl-8 md:pl-24">
         Formação
       </h4>
-      <div className="justify-items-center grid grid-cols-1 grid-rows-1 gap-2 pt-24 pb-24 isolate relative after:absolute after:content-[''] after:inset-0 after:bg-gray-300 after:skew-y-[-5deg] after:z-[-1]">
+      <div className="dark:text-neutral-200 justify-items-center grid grid-cols-1 grid-rows-1 gap-2 pt-24 pb-24 isolate relative after:absolute after:content-[''] after:inset-0 after:bg-gray-300 after:dark:bg-neutral-800 after:skew-y-[-5deg] after:z-[-1]">
         <div className="grid grid-col-1 grid-row-2 gap-8 font-[metropolislight]">
           <div className="flex flex-col gap-2 pl-16 md:pl-24 md:pr-0 lg:pl-0">
             <h5 className="text-xl md:text-3xl pb-2">Hard skills</h5>
@@ -29,9 +29,9 @@ export const Formação = () => {
           </div>
         </div>
       </div>
-      <div className="justify-center justify-items-end font-[metropolisregular] grid grid-cols-1 grid-rows-1 gap-2 pt-24 pb-24 pl-16 pr-8 md:pr-32  lg:pr-72 isolate relative after:absolute after:content-[''] after:inset-0 after:bg-gray-400 after:skew-y-[-5deg] after:z-[-1]">
+      <div className="justify-center justify-items-end font-[metropolisregular] grid grid-cols-1 grid-rows-1 gap-2 pt-24 pb-24 pl-16 pr-8 md:pr-32  lg:pr-72 isolate relative after:absolute after:content-[''] after:inset-0 after:bg-gray-400 after:dark:bg-neutral-950 after:skew-y-[-5deg] after:z-[-1]">
         <div className="grid grid-col-1 grid-row-2 gap-8">
-          <div className="flex flex-col gap-2 font-[metropolislight] pl-8 ">
+          <div className="dark:text-neutral-200 flex flex-col gap-2 font-[metropolislight] pl-8 ">
             <h5 className="text-xl md:text-3xl">Soft skills</h5>
             <ul className="text-sm md:text-xl list-disc list-inside pl-1">
               <li>Boa comunicação</li>

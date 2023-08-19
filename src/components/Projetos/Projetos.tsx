@@ -57,7 +57,7 @@ export const Projetos = () => {
             </h5>
           </div>
         </div>
-        <div className="dark:bg-neutral-800 grid grid-cols-1 md:grid-cols-2 grid-rows-[auto_1fr] gap-x-2 md:gap-x-8 gap-y-2 bg-neutral-50 px-8 md:px-24 py-8">
+        <div className="dark:bg-zinc-800 bg-slate-200 grid grid-cols-1 md:grid-cols-2 grid-rows-[auto_1fr] gap-x-2 md:gap-x-8 gap-y-2 bg-neutral-50 px-8 md:px-24 py-8">
           <h3 className="row-start-1 row-end-2 col-start-1 col-end-2 text-3xl">
             ONG AMBIENTAL
           </h3>
