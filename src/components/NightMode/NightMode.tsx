@@ -19,7 +19,7 @@ export const NightMode = (props: NightModeProps) => {
           props.theme === "light"
             ? "opacity-100"
             : "opacity-50"
-        } transition-opacity duration-300`}
+        } transition-opacity transition-colors duration-300`}
       >
         <Sun width={props.width} height={props.height} />
       </div>
@@ -29,7 +29,7 @@ export const NightMode = (props: NightModeProps) => {
           props.theme === "dark"
             ? "opacity-100"
             : "opacity-50"
-        } transition-opacity duration-300`}
+        } transition-opacity transition-colors duration-300`}
       >
         <Moon width={props.width} height={props.height} />
       </div>
