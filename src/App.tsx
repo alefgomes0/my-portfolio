@@ -5,6 +5,7 @@ import { HomeContent } from "./pages/Home/HomeContent";
 import { Footer } from "./components/Footer/Footer";
 import { BotõesLaterais } from "./components/BotõesLaterais/BotõesLaterais";
 import "./App.css";
+import { TodosProjetos } from "./pages/Projetos/TodosProjetos";
 
 function App() {
   const [theme, setTheme] = useState<"light" | "dark">(
@@ -26,6 +27,7 @@ function App() {
         <Header changeTheme={handleThemeChange} theme={theme} />
         <Routes>
           <Route path="/" element={<HomeContent />} />
+          <Route path="/projetos" element={<TodosProjetos />} />
         </Routes>
       </BrowserRouter>
       <BotõesLaterais />
