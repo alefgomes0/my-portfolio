@@ -7,6 +7,7 @@ export const Linkedin = (props: IconesProps) => {
       width={`${props.width}`}
       height={`${props.height}`}
       viewBox="0 0 128 128"
+      className="opacity-80"
     >
       <path
         fill="currentColor"

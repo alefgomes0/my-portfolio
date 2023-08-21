@@ -7,6 +7,7 @@ export const GmailColorido = (props: IconesProps) => {
       width={`${props.width}`}
       height={`${props.height}`}
       viewBox="0 0 256 193"
+      className="opacity-80"
     >
       <path
         fill="#4285F4"

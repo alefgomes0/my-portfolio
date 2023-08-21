@@ -7,6 +7,7 @@ export const Github1 = (props: IconesProps) => {
       width={`${props.width}`}
       height={`${props.height}`}
       viewBox="0 0 256 256"
+      className="opacity-80"
     >
       <path
         fill="currentColor"

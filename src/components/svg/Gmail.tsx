@@ -7,6 +7,7 @@ export const Gmail = (props: IconesProps) => {
       width={`${props.width}`}
       height={`${props.height}`}
       viewBox="0 0 24 24"
+      className="opacity-80"
     >
       <path
         fill="currentColor"
