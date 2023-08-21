@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="dark:bg-neutral-900 bg-neutral-200 dark:text-neutral-200 h-24  md:h-16 flex flex-col md:flex-row justify-end gap-2 pt-4 md:pt-0 pr-20 md:pr-32 pb-2 items-end md:items-center">
+    <footer className="dark:bg-neutral-900 bg-neutral-200 dark:text-neutral-200 h-24  md:h-24 flex flex-col md:flex-row justify-end gap-2 pt-4 md:pt-0 pr-20 md:pr-32 pb-2 items-end md:items-center">
       <h5 className="font-[metropolislight] md:font-[metropolisregular] text-sm md:text-lg">Alexandre Figueiredo Gomes</h5>
       <a href="https://github.com/alefgomes0" rel="noreferrer" target="_blank" className="cursor-pointer">
         <svg
