@@ -25,6 +25,10 @@ export const Formação = () => {
                 Curso de Programador Web Fullstack - The Odin Project{" "}
                 <span className="text-sm opacity-60">(2023)</span>
               </li>
+              <li>
+                Introdução ao MongoDB - MongoDB University{" "}
+                <span className="text-sm opacity-60">(2023)</span>
+              </li>
             </ul>
           </div>
         </div>
