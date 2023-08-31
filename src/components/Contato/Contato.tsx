@@ -13,7 +13,7 @@ export const Contato = (props: ContatoProps) => {
   const [showLinkedin, setShowLinkedin] = useState(false);
 
   return props.isDesktop ? (
-    <div className="flex flex-col gap-4 pt-8 px-6 font-[metropolisregular]">
+    <div className="flex flex-col gap-4 sm:pt-8 sm:px-6 font-[metropolisregular]">
       <h3 className="text-4xl md:text-2xl lg:text-4xl xs:text-6xl opacity-80">
         Entre em contato
       </h3>
@@ -65,7 +65,7 @@ export const Contato = (props: ContatoProps) => {
       </div>
     </div>
   ) : (
-    <div className="flex flex-col gap-4 pt-1 md:pt-12 px-6 md:pl-12 font-[metropolisregular]">
+    <div className="flex flex-col gap-4 p-4 font-[metropolisregular]">
       <h3 className="text-3xl sm:text-6xl opacity-80">Entre em contato</h3>
       <div className="flex gap-4 pl-1">
         <a

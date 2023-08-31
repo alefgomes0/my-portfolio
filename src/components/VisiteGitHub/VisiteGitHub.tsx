@@ -39,7 +39,7 @@ export const VisiteGitHub = (props: VisiteGitHubProps) => {
       </a>
     </div>
   ) : (
-    <div className="flex flex-col gap-4 font-[metropolisregular] p-4 pl-[26px]">
+    <div className="flex flex-col gap-4 font-[metropolisregular] p-4">
       <h3 className="text-2xl sm:text-4xl md:text-6xl font-[metropolisregular] opacity-80">
         Visite meu GitHub
       </h3>

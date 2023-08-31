@@ -1,6 +1,10 @@
 import { useState } from "react";
 
-export const IconesTecnologia = () => {
+type IconesTecnologiaProps = {
+  isDesktop: boolean;
+};
+
+export const IconesTecnologia = (props: IconesTecnologiaProps) => {
   const [hoveredIcon, setHoveredIcon] = useState<number | null>(null);
 
   return (
@@ -8,13 +12,13 @@ export const IconesTecnologia = () => {
       <h2 className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl font-[metropolisregular]">
         Tecnologias
       </h2>
-      <div className="flex gap-2 md:gap-4">
+      <div className="grid auto-rows-min grid-cols-4 gap-2 md:gap-4">
         <svg
           onMouseEnter={() => setHoveredIcon(0)}
           onMouseLeave={() => setHoveredIcon(null)}
           xmlns="http://www.w3.org/2000/svg"
-          width="80"
-          height="80"
+          width={`${props.isDesktop ? 80 : 35}`}
+          height={`${props.isDesktop ? 80 : 35}`}
           viewBox="0 0 128 128"
         >
           <path
@@ -27,8 +31,8 @@ export const IconesTecnologia = () => {
           onMouseEnter={() => setHoveredIcon(1)}
           onMouseLeave={() => setHoveredIcon(null)}
           xmlns="http://www.w3.org/2000/svg"
-          width="80"
-          height="80"
+          width={`${props.isDesktop ? 80 : 35}`}
+          height={`${props.isDesktop ? 80 : 35}`}
           viewBox="0 0 128 128"
         >
           <path
@@ -41,8 +45,8 @@ export const IconesTecnologia = () => {
           onMouseEnter={() => setHoveredIcon(2)}
           onMouseLeave={() => setHoveredIcon(null)}
           xmlns="http://www.w3.org/2000/svg"
-          width="80"
-          height="80"
+          width={`${props.isDesktop ? 80 : 35}`}
+          height={`${props.isDesktop ? 80 : 35}`}
           viewBox="0 0 24 24"
         >
           <path
@@ -55,8 +59,8 @@ export const IconesTecnologia = () => {
           onMouseEnter={() => setHoveredIcon(3)}
           onMouseLeave={() => setHoveredIcon(null)}
           xmlns="http://www.w3.org/2000/svg"
-          width="80"
-          height="80"
+          width={`${props.isDesktop ? 80 : 35}`}
+          height={`${props.isDesktop ? 80 : 35}`}
           viewBox="0 0 24 24"
         >
           <path
@@ -69,8 +73,8 @@ export const IconesTecnologia = () => {
           onMouseEnter={() => setHoveredIcon(4)}
           onMouseLeave={() => setHoveredIcon(null)}
           xmlns="http://www.w3.org/2000/svg"
-          width="80"
-          height="80"
+          width={`${props.isDesktop ? 80 : 35}`}
+          height={`${props.isDesktop ? 80 : 35}`}
           viewBox="0 0 24 24"
         >
           <path
@@ -83,8 +87,8 @@ export const IconesTecnologia = () => {
           onMouseEnter={() => setHoveredIcon(5)}
           onMouseLeave={() => setHoveredIcon(null)}
           xmlns="http://www.w3.org/2000/svg"
-          width="80"
-          height="80"
+          width={`${props.isDesktop ? 80 : 35}`}
+          height={`${props.isDesktop ? 80 : 35}`}
           viewBox="0 0 512 512"
         >
           <path
@@ -102,14 +106,28 @@ export const IconesTecnologia = () => {
           onMouseEnter={() => setHoveredIcon(6)}
           onMouseLeave={() => setHoveredIcon(null)}
           xmlns="http://www.w3.org/2000/svg"
-          width="80"
-          height="80"
+          width={`${props.isDesktop ? 80 : 35}`}
+          height={`${props.isDesktop ? 80 : 35}`}
           viewBox="0 0 512 512"
         >
           <path
             className="transition-colors duration-200 ease-in-out"
             fill={`${hoveredIcon === 6 ? "#F34F29" : "currentColor"}`}
             d="M216.29 158.39H137C97 147.9 6.51 150.63 6.51 233.18c0 30.09 15 51.23 35 61c-25.1 23-37 33.85-37 49.21c0 11 4.47 21.14 17.89 26.81C8.13 383.61 0 393.35 0 411.65c0 32.11 28.05 50.82 101.63 50.82c70.75 0 111.79-26.42 111.79-73.18c0-58.66-45.16-56.5-151.63-63l13.43-21.55c27.27 7.58 118.7 10 118.7-67.89c0-18.7-7.73-31.71-15-41.07l37.41-2.84zm-63.42 241.9c0 32.06-104.89 32.1-104.89 2.43c0-8.14 5.27-15 10.57-21.54c77.71 5.3 94.32 3.37 94.32 19.11zm-50.81-134.58c-52.8 0-50.46-71.16 1.2-71.16c49.54 0 50.82 71.16-1.2 71.16zm133.3 100.51v-32.1c26.75-3.66 27.24-2 27.24-11V203.61c0-8.5-2.05-7.38-27.24-16.26l4.47-32.92H324v168.71c0 6.51.4 7.32 6.51 8.14l20.73 2.84v32.1zm52.45-244.31c-23.17 0-36.59-13.43-36.59-36.61s13.42-35.77 36.59-35.77c23.58 0 37 12.62 37 35.77s-13.42 36.61-37 36.61zM512 350.46c-17.49 8.53-43.1 16.26-66.28 16.26c-48.38 0-66.67-19.5-66.67-65.46V194.75c0-5.42 1.05-4.06-31.71-4.06V154.5c35.78-4.07 50-22 54.47-66.27h38.63c0 65.83-1.34 61.81 3.26 61.81H501v40.65h-60.56v97.15c0 6.92-4.92 51.41 60.57 26.84z"
+          />
+        </svg>
+        <svg
+          onMouseEnter={() => setHoveredIcon(7)}
+          onMouseLeave={() => setHoveredIcon(null)}
+          xmlns="http://www.w3.org/2000/svg"
+          width={`${props.isDesktop ? 80 : 35}`}
+          height={`${props.isDesktop ? 80 : 35}`}
+          viewBox="0 0 24 24"
+        >
+          <path
+            className="transition-colors duration-200 ease-in-out"
+            fill={`${hoveredIcon === 7 ? "#99425B" : "currentColor"}`}
+            d="M22.251 11.82a3.117 3.117 0 0 0-2.328-3.01L22.911 0H8.104L11.1 8.838a3.116 3.116 0 0 0-2.244 2.988a3.12 3.12 0 0 0 1.313 2.536a8.279 8.279 0 0 1-1.084 1.244a8.14 8.14 0 0 1-2.55 1.647c-.834-.563-1.195-1.556-.869-2.446a3.11 3.11 0 0 0-.91-6.08a3.117 3.117 0 0 0-3.113 3.113c0 .848.347 1.626.903 2.182c-.048.097-.097.195-.146.299c-.465.959-.993 2.043-1.195 3.259c-.403 2.432.257 4.384 1.849 5.489A5.093 5.093 0 0 0 5.999 24c1.827 0 3.682-.917 5.475-1.807c1.279-.632 2.599-1.292 3.898-1.612c.48-.118.98-.187 1.508-.264c1.07-.153 2.175-.312 3.168-.89a4.482 4.482 0 0 0 2.182-3.091c.174-.994 0-1.994-.444-2.87c.298-.48.465-1.042.465-1.647zm-1.355 0c0 .965-.785 1.75-1.75 1.75a1.753 1.753 0 0 1-1.085-3.126l.007-.007c.056-.042.118-.084.18-.125c0 0 .008 0 .008-.007c.028-.014.055-.035.083-.05c.007 0 .014-.006.021-.006c.028-.014.063-.028.097-.042c.035-.014.07-.027.098-.041c.007 0 .013-.007.02-.007c.028-.007.056-.021.084-.028c.007 0 .02-.007.028-.007c.034-.007.062-.014.097-.02h.007l.104-.022c.007 0 .02 0 .028-.007c.028 0 .055-.007.083-.007h.035c.035 0 .07-.007.111-.007h.09c.028 0 .05 0 .077.007h.014c.055.007.111.014.167.028a1.766 1.766 0 0 1 1.396 1.723zM10.043 1.39h10.93l-2.509 7.4c-.104.02-.208.055-.312.09l-2.64-5.385l-2.648 5.35c-.104-.034-.216-.055-.327-.076l-2.494-7.38zm4.968 9.825a3.083 3.083 0 0 0-.938-1.668l1.438-2.904l1.452 2.967c-.43.43-.743.98-.868 1.605H15.01zm-3.481-1.098c.034-.007.062-.014.097-.02h.02c.029-.008.056-.008.084-.015h.028c.028 0 .049-.007.076-.007h.271c.028 0 .049.007.07.007c.014 0 .02 0 .035.007c.027.007.048.007.076.014c.007 0 .014 0 .028.007l.097.02h.007c.028.008.056.015.083.029c.007 0 .014.007.028.007c.021.007.049.014.07.027c.007 0 .014.007.02.007c.028.014.056.021.084.035h.007a.374.374 0 0 1 .09.049h.007c.028.014.056.034.084.048c.007 0 .007.007.013.007c.028.014.05.035.077.049l.007.007c.083.062.16.132.236.201l.007.007a1.747 1.747 0 0 1 .48 1.209a1.752 1.752 0 0 1-3.502 0a1.742 1.742 0 0 1 1.32-1.695zm-6.838-.049c.966 0 1.751.786 1.751 1.751s-.785 1.751-1.75 1.751s-1.752-.785-1.752-1.75s.786-1.752 1.751-1.752zm16.163 6.025a3.07 3.07 0 0 1-1.508 2.133c-.758.438-1.689.577-2.669.716a17.29 17.29 0 0 0-1.64.291c-1.445.355-2.834 1.05-4.182 1.717c-1.724.854-3.35 1.66-4.857 1.66a3.645 3.645 0 0 1-2.154-.688c-1.529-1.056-1.453-3.036-1.272-4.12c.167-1.015.632-1.966 1.077-2.877c.028-.055.049-.104.077-.16c.152.056.312.098.479.126c-.264 1.473.486 2.994 1.946 3.745l.264.139l.284-.104c1.216-.431 2.342-1.133 3.336-2.071a9.334 9.334 0 0 0 1.445-1.716c.16.027.32.034.48.034a3.117 3.117 0 0 0 3.008-2.327h1.167a3.109 3.109 0 0 0 3.01 2.327c.576 0 1.11-.16 1.57-.43c.18.52.236 1.063.139 1.605z"
           />
         </svg>
       </div>

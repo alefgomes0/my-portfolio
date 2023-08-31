@@ -64,7 +64,7 @@ export const Projetos = () => {
               <span className="font-[metropolisbold] dark:text-white">
                 useContext
               </span>{" "}
-              e até mesmo um{" "}
+              e um{" "}
               <span className="font-[metropolisbold]">hook personalizado</span>{" "}
               para armazenar os livros escolhidos em local storage.
             </h5>
