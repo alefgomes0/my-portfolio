@@ -12,7 +12,7 @@ export const IconesTecnologia = (props: IconesTecnologiaProps) => {
       <h2 className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl font-[metropolisregular]">
         Tecnologias
       </h2>
-      <div className="grid auto-rows-min grid-cols-4 gap-2 md:gap-4">
+      <div className="grid auto-rows-min grid-cols-[60px_60px_60px_60px] md:grid-cols-[85px_85px_85px] lg:grid-cols-[85px_85px_85px_85px] gap-2 md:gap-4">
         <svg
           onMouseEnter={() => setHoveredIcon(0)}
           onMouseLeave={() => setHoveredIcon(null)}

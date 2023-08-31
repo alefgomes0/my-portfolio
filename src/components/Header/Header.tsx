@@ -8,7 +8,7 @@ type HeaderProps = {
 
 export const Header = (props: HeaderProps) => {
   return (
-    <header className="row-start-1 row-end-2 h-[50px] flex items-center justify-between font-[inconsolata] font-semibold h-20 bg-neutral-50 dark:bg-neutral-700 px-8 md:px-24 shadow-[0_2px_2px_0_rgba(0,0,0,0.2)]">
+    <header className="row-start-1 row-end-2 h-[50px] flex items-center justify-between font-[inconsolata] font-semibold h-20 bg-neutral-50 dark:bg-neutral-700 px-8 md:px-24 shadow-[0_3px_3px_0_rgba(0,0,0,0.3)]">
       <Link to="/">
         <img
           src="/logo/b1.png"
