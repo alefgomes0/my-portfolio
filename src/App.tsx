@@ -4,8 +4,8 @@ import { Header } from "./components/Header/Header";
 import { HomeContent } from "./pages/Home/HomeContent";
 import { Footer } from "./components/Footer/Footer";
 import { BotõesLaterais } from "./components/BotõesLaterais/BotõesLaterais";
-import "./App.css";
 import { TodosProjetos } from "./pages/Projetos/TodosProjetos";
+import "./App.css";
 
 function App() {
   const [theme, setTheme] = useState<"light" | "dark">(
