@@ -6,6 +6,7 @@ import { Footer } from "./components/Footer/Footer";
 import { BotõesLaterais } from "./components/BotõesLaterais/BotõesLaterais";
 import { TodosProjetos } from "./pages/Projetos/TodosProjetos";
 import "./App.css";
+import { NoMatch } from "./pages/NoMatch/NoMatch";
 
 function App() {
   const [theme, setTheme] = useState<"light" | "dark">(
@@ -28,6 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeContent />} />
           <Route path="/projetos" element={<TodosProjetos />} />
+          <Route path="*" element={<NoMatch />} />
         </Routes>
       </BrowserRouter>
       <BotõesLaterais />
