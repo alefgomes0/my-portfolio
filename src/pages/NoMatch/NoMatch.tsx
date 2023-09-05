@@ -7,7 +7,7 @@ export const NoMatch = () => {
         Parece que você está perdido...
       </h3>
 
-      <div className="bg-[url('../../../public/imagens/undraw_Road_sign_re_3kc3.png')] w-[250px] h-[225px] md:w-[400px] bg-cover bg-center md: h-[360px] rounded">
+      <div className="bg-[url('/imagens/undraw_Road_sign_re_3kc3.png')] w-[250px] h-[225px] md:w-[400px] bg-cover bg-center md: h-[360px] rounded">
         <div className="w-full h-full bg-neutral-200 opacity-[25%] dark:bg-black"></div>
       </div>
 
