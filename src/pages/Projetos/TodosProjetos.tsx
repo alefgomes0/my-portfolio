@@ -5,13 +5,71 @@ import { JavaScript } from "../../components/svg/JavaScript";
 import { ReactColorido } from "../../components/svg/ReactColorido";
 import { TailwindColorido } from "../../components/svg/Tailwind";
 import { TypeScriptColorido } from "../../components/svg/TypeScript";
+import { NodeJSColorido } from "../../components/svg/NodeJSColorido";
+import { Express } from "../../components/svg/Express";
+import { MongoDB } from "../../components/svg/MongoDB";
 
 export const TodosProjetos = () => {
   return (
-    <div className="dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100 font-[metropolisregular] grid grid-cols-1 grid-rows-[auto_1fr] gap-2 pt-24 relative">
+    <section className="dark:text-neutral-100 dark:bg-neutral-900 bg-neutral-100 font-[metropolisregular] grid grid-cols-1 grid-rows-[auto_1fr] gap-2 pt-24 relative">
       <h2 className="dark:text-neutral-50 font-[metropolisbold] opacity-80 text-4xl md:text-6xl px-8 md:px-24 mb-8">
         Meus Projetos
       </h2>
+      <div className="dark:bg-zinc-800 bg-slate-200 grid grid grid-cols-1 md:grid-cols-2 grid-rows-[auto_1fr] gap-x-2 md:gap-x-8 gap-y-2 bg-neutral-50 px-8 md:px-24 py-8">
+        <h3 className="row-start-1 row-end-2 col-start-1 col-end-2 text-2xl md:text-3xl">
+          ONDE ESTÁ WALLY?
+        </h3>
+        <div className="h-fit">
+          <a
+            href="https://where-is-waldo-git-main-alefgomes0.vercel.app/"
+            target="_blank"
+          >
+            <img
+              className="min-h-[140px] min-w-[280px] object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
+              srcSet="
+                    /imagens/ww.png 600w,
+                    /imagens/ww-s.png 300w
+                  "
+            />
+          </a>
+        </div>
+        <div className="flex flex-col self-start md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-3 gap-4">
+          <h4 className="text-xl pt-3">PRINCIPAIS TECNOLOGIAS</h4>
+          <div className="flex gap-6">
+            <ReactColorido width={60} height={60} />
+            <TailwindColorido width={60} height={60} />
+            <TypeScriptColorido width={60} height={60} />
+            <NodeJSColorido width={60} height={60} />
+            <Express width={60} height={60} />
+            <MongoDB width={60} height={60} />
+            <GitColorido width={60} height={60} />
+          </div>
+          <h5 className="font-[metropolislight] text-base md:text-sm lg-text-base">
+            Baseado no jogo "Onde está Wally", o backend do site, feito com
+            ExpressJS, utiliza{" "}
+            <span className="font-[metropolisbold] dark:text-white">
+              REST API's{" "}
+            </span>
+            para exibir os pokémons a serem localizados, bem como para mostrar o
+            ranking dos jogadores em cada mapa. Os dados estão armazenados no{" "}
+            <span className="font-[metropolisbold] dark:text-white">
+              MongoDB{" "}
+            </span>
+            e, para manejá-los, foi utilizado o ODM{" "}
+            <span className="font-[metropolisbold] dark:text-white">
+              Mongoose
+            </span>
+            , assim como outros middlewares como{" "}
+            <span className="font-[metropolisbold] dark:text-white">
+              express-validator e express-async-handler
+            </span>
+            . O front-end utilizou Vite (React + TypeScript) e diversos hooks
+            como useState, useEffect, useContext e hooks customizáveis, além de
+            axios para fazer os requests. Já para manejar as rotas internas, a
+            escolha foi o react-router-dom.
+          </h5>
+        </div>
+      </div>
       <div className="grid grid-cols-1 grid-rows-[min-height_min-height_min-height_auto] gap-x-8 gap-y-16 mt-4">
         <div className="dark:bg-neutral-800 grid grid-cols-1 md:grid-cols-2 grid-rows-[auto_1fr] gap-x-2 md:gap-x-8 gap-y-2 bg-neutral-50 px-8 md:px-24 py-8">
           <h3 className="row-start-1 row-end-2 col-start-1 col-end-2 text-2xl md:text-3xl">
@@ -216,7 +274,10 @@ export const TodosProjetos = () => {
             Lista de Afazeres
           </h3>
           <div className="h-fit">
-            <a href="https://illustrious-churros-02bc2b.netlify.app/" target="_blank">
+            <a
+              href="https://illustrious-churros-02bc2b.netlify.app/"
+              target="_blank"
+            >
               <img
                 className="min-h-[140px] min-w-[280px] object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
                 srcSet="
@@ -270,7 +331,10 @@ export const TodosProjetos = () => {
             Etch a Sketch
           </h3>
           <div className="h-fit">
-            <a href="https://illustrious-churros-02bc2b.netlify.app/" target="_blank">
+            <a
+              href="https://illustrious-churros-02bc2b.netlify.app/"
+              target="_blank"
+            >
               <img
                 className="min-h-[140px] min-w-[280px] object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
                 srcSet="
@@ -324,7 +388,10 @@ export const TodosProjetos = () => {
             Calculadora
           </h3>
           <div className="h-fit">
-            <a href="https://jolly-frangipane-d3acf9.netlify.app/" target="_blank">
+            <a
+              href="https://jolly-frangipane-d3acf9.netlify.app/"
+              target="_blank"
+            >
               <img
                 className="min-h-[140px] min-w-[280px] object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
                 srcSet="
@@ -351,7 +418,10 @@ export const TodosProjetos = () => {
             Jogo da Velha
           </h3>
           <div className="h-fit">
-            <a href="https://silver-starlight-3d47e3.netlify.app/" target="_blank">
+            <a
+              href="https://silver-starlight-3d47e3.netlify.app/"
+              target="_blank"
+            >
               <img
                 className="min-h-[140px] min-w-[280px] object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
                 srcSet="
@@ -374,6 +444,6 @@ export const TodosProjetos = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
