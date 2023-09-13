@@ -1,6 +1,6 @@
 export const Formação = () => {
   return (
-    <>
+    <section>
       <h4 className="dark:text-neutral-50 text-4xl md:text-6xl font-[metropolisregular] pt-16 md:pt-36 pb-16 pl-8 md:pl-24">
         Formação
       </h4>
@@ -48,6 +48,6 @@ export const Formação = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
