@@ -27,8 +27,8 @@ export const Projetos = () => {
               <img
                 className="min-h-[140px] min-w-[280px] object-center object-cover rounded shadow-[0_3px_3px_0_rgba(0,0,0,0.25)]"
                 srcSet="
-                    /imagens/sc.png 600w,
-                    /imagens/sc-s.png 300w
+                    /imagens/ww.png 600w,
+                    /imagens/ww-s.png 300w
                   "
               />
             </a>
@@ -64,9 +64,9 @@ export const Projetos = () => {
               <span className="font-[metropolisbold] dark:text-white">
                 express-validator e express-async-handler
               </span>
-              . O front-end utilizou Vite (React + TypeScript) e hooks
-              customizáveis, useEffect, useContext etc. Assim como axios para fazer
-              os requests.
+              . O front-end utilizou Vite (React + TypeScript) e diversos hooks como
+              useState, useEffect, useContext e hooks customizáveis, além de axios para fazer
+              os requests. Já para manejar as rotas internas, a escolha foi o react-router-dom.
             </h5>
           </div>
         </div>
