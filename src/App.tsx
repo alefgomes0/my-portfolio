@@ -7,6 +7,7 @@ import { BotõesLaterais } from "./components/BotõesLaterais/BotõesLaterais";
 import { TodosProjetos } from "./pages/Projetos/TodosProjetos";
 import "./App.css";
 import { NoMatch } from "./pages/NoMatch/NoMatch";
+import axios from "axios";
 
 function App() {
   const [theme, setTheme] = useState<"light" | "dark">(
@@ -15,6 +16,13 @@ function App() {
   const handleThemeChange = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
+
+  useEffect(() => {
+    const wakeUpServer = async () => {
+      await axios.get("https://where-is-waldo-dcr7.onrender.com");
+    };
+    void wakeUpServer();
+  }, []);
 
   useEffect(() => {
     theme === "dark"
