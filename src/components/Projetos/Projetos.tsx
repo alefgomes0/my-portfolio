@@ -19,6 +19,7 @@ export const Projetos = () => {
         <Projeto
           title="ONDE ESTÁ WALLY?"
           imagePath="/imagens/ww"
+          projectLink="https://where-is-waldo-df50f2et1-alefgomes0.vercel.app"
           children={
             <>
               <ReactColorido width={60} height={60} />
@@ -63,6 +64,7 @@ export const Projetos = () => {
         <Projeto
           title="LIVRARIA"
           imagePath="/imagens/sc"
+          projectLink="https://shopping-cart-cnb1wrr2z-alefgomes0.vercel.app"
           children={
             <>
               <ReactColorido width={60} height={60} />
@@ -108,10 +110,10 @@ export const Projetos = () => {
             </>
           }
         />
-
         <Projeto
           title="ONG AMBIENTAL"
           imagePath="/imagens/trees"
+          projectLink="https://trees-fce7c5wcg-alefgomes0.vercel.app"
           children={
             <>
               <ReactColorido width={60} height={60} />
@@ -143,10 +145,10 @@ export const Projetos = () => {
             </>
           }
         />
-
         <Projeto
           title="RESTAURANTE"
           imagePath="/imagens/rp"
+          projectLink="https://restaurant-page-gb1oig22h-alefgomes0.vercel.app"
           children={
             <>
               <ReactColorido width={60} height={60} />

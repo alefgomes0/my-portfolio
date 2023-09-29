@@ -5,6 +5,7 @@ type ProjetoProps = {
   imagePath: string;
   children: React.ReactNode;
   textContent: React.ReactNode;
+  projectLink: string;
 };
 
 export const Projeto = ({
@@ -12,6 +13,7 @@ export const Projeto = ({
   children,
   imagePath,
   textContent,
+  projectLink
 }: ProjetoProps) => {
   const [zoomIn, setZoomIn] = useState(false);
 
@@ -22,7 +24,7 @@ export const Projeto = ({
       </h3>
       <div className="h-fit">
         <a
-          href="https://where-is-waldo-git-main-alefgomes0.vercel.app/"
+          href={projectLink}
           target="_blank"
         >
           <div className="overflow-hidden">
