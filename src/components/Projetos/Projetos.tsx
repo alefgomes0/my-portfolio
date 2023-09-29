@@ -113,7 +113,7 @@ export const Projetos = () => {
         <Projeto
           title="ONG AMBIENTAL"
           imagePath="/imagens/trees"
-          projectLink="https://trees-fce7c5wcg-alefgomes0.vercel.app"
+          projectLink="https://trees-lilac.vercel.app/"
           children={
             <>
               <ReactColorido width={60} height={60} />
