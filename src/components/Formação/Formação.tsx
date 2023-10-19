@@ -29,6 +29,10 @@ export const Formação = () => {
                 Introdução ao MongoDB - MongoDB University{" "}
                 <span className="text-sm opacity-[55%]">(2023)</span>
               </li>
+              <li className="mb-1">
+                Introdução a banco de dados com SQL - Harvard's CS50SQL{" "}
+                <span className="text-sm opacity-[55%]">(2023)</span>
+              </li>
             </ul>
           </div>
         </div>
