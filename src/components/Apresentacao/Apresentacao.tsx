@@ -24,7 +24,7 @@ export const Apresentacao = () => {
         <h2 className="text-6xl md:text-4xl lg:text-5xl xl:text-7xl font-[inconsolata] opacity-80">
           hello, world
         </h2>
-        <h4 className="sm:text-sm lg:text-base xs:text-lg font-[metropolislight]">
+        <p className="sm:text-sm lg:text-base xs:text-lg font-[metropolislight]">
           Meu nome é Alexandre Figueiredo Gomes. Sou um desenvolvedor{" "}
           <span className="font-[metropolisbold] dark:text-white">
             full stack
@@ -34,7 +34,7 @@ export const Apresentacao = () => {
           Como programador front-end, meu objetivo é fornecer a melhor
           experiência possível aos usuários, com especial foco à interface,
           experiência do usuário e melhores práticas.
-        </h4>
+        </p>
       </div>
       <IconesTecnologia isDesktop={isDesktop} />
       <Contato isDesktop={isDesktop} />

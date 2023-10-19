@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { MongoDB } from "../svg/MongoDB";
 
 type IconesTecnologiaProps = {
   isDesktop: boolean;
