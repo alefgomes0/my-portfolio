@@ -17,6 +17,82 @@ export const Projetos = () => {
       </h2>
       <div className="grid grid-cols-1 grid-rows-[min-height_min-height_min-height_auto] gap-x-8 gap-y-16 mt-4">
         <Projeto
+          title="THE ODIN ZAP"
+          imagePath="/imagens/oz"
+          projectLink="https://messaging-app-peach-psi.vercel.app/"
+          children={
+            <>
+              <ReactColorido width={60} height={60} />
+              <TailwindColorido width={60} height={60} />
+              <TypeScriptColorido width={60} height={60} />
+              <NodeJSColorido width={60} height={60} />
+              <Express width={60} height={60} />
+              <MongoDB width={60} height={60} />
+              <GitColorido width={60} height={60} />
+            </>
+          }
+          textContent={
+            <>
+              <h5 className="font-[metropolislight] text-base md:text-sm lg-text-base">
+                Projeto feito como conclusão do curso de Desenvolvedor Web full
+                stack do{" "}
+                <a
+                  href="https://www.theodinproject.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  The Odin Project
+                </a>
+                . O front end, feito em{" "}
+                <span className="font-[metropolisbold] dark:text-white">
+                  React{" "}
+                </span>
+                , buscou fazer uma representação semelhante ao Whatsapp. A tela
+                de login foi criada com{" "}
+                <span className="font-[metropolisbold] dark:text-white">
+                  Formik{" "}
+                </span>
+                e{" "}
+                <span className="font-[metropolisbold] dark:text-white">
+                  Yup{" "}
+                </span>{" "}
+                para validar as informações necessárias. A autorização é feita
+                através de estratégia local (email + senha). Os dados são
+                sanitarizados e encriptados com hash e salt através do{" "}
+                <span className="font-[metropolisbold] dark:text-white">
+                  bcrypt{" "}
+                </span>
+                antes de serem armazenados no banco de dados. Já a autenticação
+                é feita com a estratégia{" "}
+                <span className="font-[metropolisbold] dark:text-white">
+                  JWT
+                </span>{" "}
+                , garantindo ao usuário um access e um refresh token, que é
+                armazenado no próprio estado da aplicação e posteriormente
+                interceptado com{" "}
+                <span className="font-[metropolisbold] dark:text-white">
+                  axios{" "}
+                </span>{" "}
+                . Nao utilizar o localStorage ou cookies para armazenar o token
+                garante maior segurança ao aplicativo. O backend foi feito com{" "}
+                <span className="font-[metropolisbold] dark:text-white">
+                  Express + MongoDB{" "}
+                </span>
+                e o ODM{" "}
+                <span className="font-[metropolisbold] dark:text-white">
+                  Mongoose{" "}
+                </span>
+                . Dada à natureza dinâmica da aplicação, empregou-se a
+                tecnologia de websockets com o{" "}
+                <span className="font-[metropolisbold] dark:text-white">
+                  socket.io
+                </span>
+                , o que diminui a latência do sistema.
+              </h5>
+            </>
+          }
+        />
+        <Projeto
           title="ONDE ESTÁ WALLY?"
           imagePath="/imagens/ww"
           projectLink="https://where-is-waldo-df50f2et1-alefgomes0.vercel.app"

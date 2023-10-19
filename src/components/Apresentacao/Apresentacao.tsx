@@ -27,16 +27,16 @@ export const Apresentacao = () => {
         <h4 className="sm:text-sm  lg:text-base xs:text-lg font-[metropolislight]">
           Meu nome é Alexandre Figueiredo Gomes. Sou um desenvolvedor{" "}
           <span className="font-[metropolisbold] dark:text-white">
-            front end
+            full stack
           </span>{" "}
-          (estudando para me tornar full-stack). Advogado por formação e
-          apaixonado por tecnologia, encontrei na programação uma oportunidade
-          de realização pessoal e profissional. Como programador front-end, meu
-          objetivo é fornecer a melhor experiência possível aos usuários, com
-          especial foco à interface, experiência do usuário e melhores práticas.
+          Advogado por formação e apaixonado por tecnologia, encontrei na
+          programação uma oportunidade de realização pessoal e profissional.
+          Como programador front-end, meu objetivo é fornecer a melhor
+          experiência possível aos usuários, com especial foco à interface,
+          experiência do usuário e melhores práticas.
         </h4>
       </div>
-      <IconesTecnologia isDesktop={isDesktop}/>
+      <IconesTecnologia isDesktop={isDesktop} />
       <Contato isDesktop={isDesktop} />
       <VisiteGitHub isDesktop={isDesktop} />
     </section>
