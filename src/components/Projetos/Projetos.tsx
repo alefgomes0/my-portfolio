@@ -40,6 +40,7 @@ export const Projetos = () => {
                   href="https://www.theodinproject.com"
                   target="_blank"
                   rel="noreferrer"
+                  className="underline decoration-1 underline-offset-4 decoration-blue-600"
                 >
                   The Odin Project
                 </a>
@@ -87,7 +88,8 @@ export const Projetos = () => {
                 <span className="font-[metropolisbold] dark:text-white">
                   socket.io
                 </span>
-                , o que diminui a latência do sistema.
+                , o que diminui a latência do sistema e garante maior
+                interatividade entre os usuários.
               </h5>
             </>
           }
