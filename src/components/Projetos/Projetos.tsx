@@ -74,7 +74,11 @@ export const Projetos = () => {
                 <span className="font-[metropolisbold] dark:text-white">
                   axios{" "}
                 </span>{" "}
-                . Nao utilizar o localStorage ou cookies para armazenar o token
+                no momento de comunicação com os{" "}
+                <span className="font-[metropolisbold] dark:text-white">
+                  REST API's.{" "}
+                </span>{" "}
+                Não utilizar o localStorage ou cookies para armazenar o token
                 garante maior segurança ao aplicativo. O backend foi feito com{" "}
                 <span className="font-[metropolisbold] dark:text-white">
                   Express + MongoDB{" "}
