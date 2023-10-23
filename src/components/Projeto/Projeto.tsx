@@ -44,7 +44,7 @@ export const Projeto = ({
       </div>
       <div className="flex flex-col self-start md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-3 gap-4">
         <h4 className="text-xl pt-3">PRINCIPAIS TECNOLOGIAS</h4>
-        <div className="flex gap-6">{children}</div>
+        <div className="flex flex-wrap gap-6">{children}</div>
         {textContent}
       </div>
     </div>
