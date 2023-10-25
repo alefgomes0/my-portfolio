@@ -60,8 +60,8 @@ export const ProjetosHome = () => {
               </span>
               antes de serem armazenados no banco de dados. Já a autenticação é
               feita com a estratégia{" "}
-              <span className="font-[metropolisbold] dark:text-white">JWT</span>{" "}
-              , garantindo ao usuário um access e um refresh token, que é
+              <span className="font-[metropolisbold] dark:text-white">JWT</span>,{" "}
+              garantindo ao usuário um access e um refresh token, que é
               armazenado no próprio estado da aplicação e posteriormente
               interceptado com{" "}
               <span className="font-[metropolisbold] dark:text-white">
@@ -69,8 +69,8 @@ export const ProjetosHome = () => {
               </span>{" "}
               no momento de comunicação com os{" "}
               <span className="font-[metropolisbold] dark:text-white">
-                REST API's.{" "}
-              </span>{" "}
+                REST API's
+              </span>.{" "}
               Não utilizar o localStorage ou cookies para armazenar o token
               garante maior segurança ao aplicativo. O backend foi feito com{" "}
               <span className="font-[metropolisbold] dark:text-white">
@@ -78,9 +78,9 @@ export const ProjetosHome = () => {
               </span>
               e o ODM{" "}
               <span className="font-[metropolisbold] dark:text-white">
-                Mongoose{" "}
-              </span>
-              . Dada à natureza dinâmica da aplicação, empregou-se a tecnologia
+                Mongoose
+              </span>.{" "}
+              Dada à natureza dinâmica da aplicação, empregou-se a tecnologia
               de websockets com o{" "}
               <span className="font-[metropolisbold] dark:text-white">
                 socket.io
@@ -127,8 +127,8 @@ export const ProjetosHome = () => {
               , assim como outros middlewares como{" "}
               <span className="font-[metropolisbold] dark:text-white">
                 express-validator e express-async-handler
-              </span>
-              . O front-end utilizou Vite (React + TypeScript) e diversos hooks
+              </span>. {" "}
+              O front-end utilizou Vite (React + TypeScript) e diversos hooks
               como useState, useEffect, useContext e hooks customizáveis, além
               de axios para fazer os requests. Já para manejar as rotas
               internas, a escolha foi o react-router-dom.
