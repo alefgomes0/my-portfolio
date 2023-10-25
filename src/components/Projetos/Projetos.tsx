@@ -16,7 +16,7 @@ export const Projetos = () => {
         Meus Projetos
       </h2>
       <div className="grid grid-cols-1 grid-rows-[min-height_min-height_min-height_auto] gap-x-8 gap-y-16 mt-4">
-{/*         <Projeto
+        <Projeto
           title="THE ODIN ZAP"
           imagePath="/imagens/oz"
           projectLink="https://messaging-app-peach-psi.vercel.app/"
@@ -97,7 +97,7 @@ export const Projetos = () => {
               </h5>
             </>
           }
-        /> */}
+        />
         <Projeto
           title="ONDE ESTÁ WALLY?"
           imagePath="/imagens/ww"
