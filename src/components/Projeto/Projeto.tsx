@@ -18,7 +18,7 @@ export const Projeto = ({
   const [zoomIn, setZoomIn] = useState(false);
 
   return (
-    <div className="dark:bg-neutral-800 grid grid-cols-1 md:grid-cols-2 grid-rows-[auto_1fr] gap-x-2 md:gap-x-8 gap-y-2 bg-slate-200 px-8 md:px-24 py-8">
+    <div className="dark:odd:bg-neutral-800 dark:even:bg-[#484848] odd:bg-slate-200 even:bg-neutral-50 grid grid-cols-1 md:grid-cols-2 grid-rows-[auto_1fr] gap-x-2 md:gap-x-8 gap-y-2 px-8 md:px-24 py-8">
       <h3 className="row-start-1 row-end-2 col-start-1 col-end-2 text-2xl md:text-3xl">
         {title}
       </h3>

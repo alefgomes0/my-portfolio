@@ -25,10 +25,10 @@ export const Apresentacao = () => {
           hello, world
         </h2>
         <p className="sm:text-sm lg:text-base xs:text-lg font-[metropolislight]">
-          Meu nome é Alexandre Figueiredo Gomes. Sou um desenvolvedor{" "}
+          Meu nome é Alexandre Figueiredo Gomes e sou um desenvolvedor{" "}
           <span className="font-[metropolisbold] dark:text-white">
             full stack
-          </span>{" "}
+          </span>.{" "}
           Advogado por formação e apaixonado por tecnologia, encontrei na
           programação uma oportunidade de realização pessoal e profissional.
           Como programador front-end, meu objetivo é fornecer a melhor
