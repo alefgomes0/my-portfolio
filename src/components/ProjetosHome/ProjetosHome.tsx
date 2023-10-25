@@ -60,8 +60,8 @@ export const ProjetosHome = () => {
               </span>
               antes de serem armazenados no banco de dados. Já a autenticação é
               feita com a estratégia{" "}
-              <span className="font-[metropolisbold] dark:text-white">JWT</span>,{" "}
-              garantindo ao usuário um access e um refresh token, que é
+              <span className="font-[metropolisbold] dark:text-white">JWT</span>
+              , garantindo ao usuário um access e um refresh token, que é
               armazenado no próprio estado da aplicação e posteriormente
               interceptado com{" "}
               <span className="font-[metropolisbold] dark:text-white">
@@ -70,8 +70,8 @@ export const ProjetosHome = () => {
               no momento de comunicação com os{" "}
               <span className="font-[metropolisbold] dark:text-white">
                 REST API's
-              </span>.{" "}
-              Não utilizar o localStorage ou cookies para armazenar o token
+              </span>
+              . Não utilizar o localStorage ou cookies para armazenar o token
               garante maior segurança ao aplicativo. O backend foi feito com{" "}
               <span className="font-[metropolisbold] dark:text-white">
                 Express + MongoDB{" "}
@@ -79,8 +79,8 @@ export const ProjetosHome = () => {
               e o ODM{" "}
               <span className="font-[metropolisbold] dark:text-white">
                 Mongoose
-              </span>.{" "}
-              Dada à natureza dinâmica da aplicação, empregou-se a tecnologia
+              </span>
+              . Dada à natureza dinâmica da aplicação, empregou-se a tecnologia
               de websockets com o{" "}
               <span className="font-[metropolisbold] dark:text-white">
                 socket.io
@@ -94,7 +94,7 @@ export const ProjetosHome = () => {
       <Projeto
         title="ONDE ESTÁ WALLY?"
         imagePath="/imagens/ww"
-        projectLink="https://where-is-waldo-df50f2et1-alefgomes0.vercel.app"
+        projectLink="https://where-is-waldo-eta.vercel.app/"
         children={
           <>
             <ReactColorido width={60} height={60} />
@@ -127,8 +127,8 @@ export const ProjetosHome = () => {
               , assim como outros middlewares como{" "}
               <span className="font-[metropolisbold] dark:text-white">
                 express-validator e express-async-handler
-              </span>. {" "}
-              O front-end utilizou Vite (React + TypeScript) e diversos hooks
+              </span>
+              . O front-end utilizou Vite (React + TypeScript) e diversos hooks
               como useState, useEffect, useContext e hooks customizáveis, além
               de axios para fazer os requests. Já para manejar as rotas
               internas, a escolha foi o react-router-dom.
