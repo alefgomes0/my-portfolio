@@ -13,7 +13,7 @@ export const Projeto = ({
   children,
   imagePath,
   textContent,
-  projectLink
+  projectLink,
 }: ProjetoProps) => {
   const [zoomIn, setZoomIn] = useState(false);
 
@@ -23,10 +23,7 @@ export const Projeto = ({
         {title}
       </h3>
       <div className="h-fit">
-        <a
-          href={projectLink}
-          target="_blank"
-        >
+        <a href={projectLink} target="_blank">
           <div className="overflow-hidden">
             <img
               onMouseEnter={() => setZoomIn(true)}
